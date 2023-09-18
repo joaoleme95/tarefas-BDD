@@ -1,0 +1,9 @@
+CREATE TABLE Clientes (
+    cpf VARCHAR(50),
+    email VARCHAR(50),
+    nome VARCHAR(50),
+    telefone VARCHAR(50)
+);
+
+INSERT INTO Clientes (cpf, email, nome, telefone) VALUES ('12345667', 'jorge@gmail.com', 'Jorge', '159980077');
+INSERT INTO Clientes (cpf, email, nome, telefone) VALUES ('8987667667', 'Sandro@gmail.com', 'Sandro', '15998998999');

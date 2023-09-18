@@ -1,0 +1,14 @@
+CREATE TABLE Supermercado (
+    nome VARCHAR(20),
+    preco DECIMAL(10, 2),
+    qtd_estoque INT,
+    marca VARCHAR(20),
+    sac VARCHAR(20),
+    nacionalidade VARCHAR(20)
+);
+
+INSERT INTO Supermercado(nome, preco, qtd_estoque, marca, sac, nacionalidade)
+VALUES ('Arroz', 8.40, 100, 'Arroizin', '40028922', 'Brasileiro');
+
+INSERT INTO Supermercado(nome, preco, qtd_estoque, marca, sac, nacionalidade)
+VALUES ('Macarrao', 3.00, 100, 'Dona benta', '40028922', 'Brasileiro');

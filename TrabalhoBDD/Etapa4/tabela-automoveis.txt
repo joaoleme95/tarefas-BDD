@@ -1,0 +1,10 @@
+CREATE TABLE Automoveis (
+    montadora VARCHAR(20),
+    modelo VARCHAR(20),
+    placa VARCHAR(20),
+    ano DATE,
+    site VARCHAR(20)
+);
+
+INSERT INTO Automoveis (montadora, modelo, placa, ano, site)
+VALUES ('Hyundai', 'HB20', 'FHB-7990', '2014-12-12', 'hyundai.com');

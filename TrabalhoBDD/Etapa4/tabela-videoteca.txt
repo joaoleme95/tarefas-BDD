@@ -1,0 +1,9 @@
+CREATE TABLE Videoteca (
+    titulo VARCHAR(20),
+    duracao VARCHAR(20),
+    idioma VARCHAR(20),
+    preco DECIMAL(10, 2)
+);
+
+INSERT INTO Videoteca (titulo, duracao, idioma, preco)
+VALUES ('Gta o filme', '2 horas', 'Estadunidense', 50.00);

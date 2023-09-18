@@ -1,0 +1,8 @@
+CREATE TABLE Desenvolvedor (
+    nome VARCHAR(50),
+    data_nascimento DATE,
+    cpf VARCHAR(50)
+);
+
+INSERT INTO Desenvolvedor (nome, data_nascimento, cpf) VALUES ('Jorge', '2003-08-19', '111222333');
+INSERT INTO Desenvolvedor (nome, data_nascimento, cpf) VALUES ('Sandro', '2007-07-27', '8837738838');

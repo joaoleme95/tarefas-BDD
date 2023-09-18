@@ -1,0 +1,12 @@
+CREATE TABLE Autor (
+    nome VARCHAR(50),
+    email VARCHAR(50),
+    nacionalidade VARCHAR(50),
+    data_nascimento DATE
+);
+
+INSERT INTO Autor (nome, email, nacionalidade, data_nascimento)
+VALUES ('Sandro', 'sandro@gmail.com', 'Brasileiro', '2003-08-19');
+
+INSERT INTO Autor (nome, email, nacionalidade, data_nascimento)
+VALUES ('Jorge', 'jorge@gmail.com', 'Brasileiro', '2000-08-18');

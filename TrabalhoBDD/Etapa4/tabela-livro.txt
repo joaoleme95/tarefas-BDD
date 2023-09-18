@@ -1,0 +1,8 @@
+CREATE TABLE Livro(
+Titulo VARCHAR(20),
+Qtd_Paginas INT,
+Acabamento VARCHAR(20),
+Editora VARCHAR(20)
+);
+
+INSERT INTO Livro (Titulo,Qtd_Paginas,Acabamento,Editora) VALUES ('Harry potter',287,'Capa dura','Rocco');
